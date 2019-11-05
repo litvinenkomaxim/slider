@@ -4,17 +4,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 
+
+    <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSViPmbByJFr88JJBVF5r7Z78XwPDFx_AVzH25pz0aIWESwO7Ducg&s"
-        alt="pic">
+
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img class="slider-img" src="images/nature-1.jpg" alt="1">
+            </div>
+            <div class="swiper-slide">
+                <img class="slider-img" src="images/nature-2.jpg" alt="1">
+            </div>
+            <div class="swiper-slide">
+                <img class="slider-img" src="images/nature-3.jpg" alt="1">
+            </div>
+            <div class="swiper-slide">
+                <img class="slider-img" src="images/nature-4.jpg" alt="1">
+            </div>
+            <div class="swiper-slide">
+                <img class="slider-img" src="images/nature-5.jpg" alt="1">
+            </div>
+            <div class="swiper-slide">
+                <img class="slider-img" src="images/nature-6.jpg" alt="1">
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+
+    <script type="text/javascript" src="swiper.min.js">
+    </script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+        });
+    </script>
 </body>
 
 </html>
-
-<!-- commit  -->
