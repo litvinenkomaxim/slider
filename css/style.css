@@ -1,2 +1,9 @@
  @import url(components/swiper.min.css);
+ @import url(components/glide.core.min.css);
+ @import url(components/glide.theme.min.css);
+
+ @import url(../slick/slick.css);
+ @import url(../slick/slick-theme.scss);
+
+
  @import url(components/swiper1.css);

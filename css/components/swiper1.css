@@ -1,5 +1,5 @@
  body {
-     background: #262626;
+     background: #443131;
      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
      font-size: 14px;
      color: #000;
@@ -36,6 +36,9 @@
  .header {
      padding-top: 50px;
      text-align: center;
+ }
 
-
+ .slider2 {
+     width: 1200px;
+     margin: 0 auto;
  }
