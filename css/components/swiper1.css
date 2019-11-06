@@ -29,7 +29,7 @@
 
  .header-link {
      color: white;
-     font-size: 100px;
+     font-size: 60px;
      text-align: center;
  }
 
@@ -39,7 +39,8 @@
  }
 
  .slider2 {
-     width: 1200px;
+     /* height: 400px; */
+     width: 600px;
      margin: 0 auto;
  }
 
@@ -48,4 +49,19 @@
      margin: 0 auto;
 
      padding-bottom: 200px;
+ }
+
+
+
+ li figure {
+     height: 720px;
+     width: 360px;
+     margin: 0 auto;
+     display: flex;
+ }
+
+ li figure img {
+     max-width: 100%;
+     max-height: 100%;
+     margin: auto 0;
  }
