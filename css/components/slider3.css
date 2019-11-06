@@ -1,0 +1,8 @@
+.slider figure {
+    height: 1000px;
+}
+
+.slider figure img {
+    height: 100%;
+    margin: 0 auto;
+}
